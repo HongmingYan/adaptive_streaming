@@ -100,7 +100,10 @@ def run_ffmpeg(video_file_loc, streams, extra_params=''):
 def run_demo():
     """ """
     streams = []
-    streams.append(Stream(1920, 1080, 5000, 30))
+    streams.append(Stream(1920, 1080, 6000, 30))
+    streams.append(Stream(1280, 720, 3000, 30))
+    streams.append(Stream(768, 432, 1000, 30))
+    
     if not os.path.exists('seg_files/bbb_sunflower_1080p_30fps_normal'):
         os.system("mkdir seg_files/bbb_sunflower_1080p_30fps_normal")
     elif len(os.listdir('seg_files/bbb_sunflower_1080p_30fps_normal') ) > 0:
