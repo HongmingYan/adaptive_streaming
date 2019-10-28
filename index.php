@@ -8,15 +8,14 @@
         <div align="center">
         <h1>HLS Streaming</h1>
         <br><br><br><br>
-        <!--
-        <a href="videos/demo.mp4" download>Demo MP4</a>
+        <a href="http://timward.technology/uploadable/bbb_demo.mp4" target="./videos/"download>Demo MP4</a>
         <br><br>
         <video controls>
-            <source src="segmented_videos/demo/master.m3u8" type="video/mp4">
+            <source src="segmented_videos/bbb_sunflower_1080p_30fps_normal/master.m3u8" type="video/mp4">
         </video>
-        -->
         <br><br>
         <?php
+            /*
             $dir    = 'seg_files';
             $video_files = [];
             foreach(glob($dir.'/*') as $file) {
@@ -36,6 +35,7 @@
                     }
                 }
             }
+            */
         ?>
         <br><br><br><br>
         <br><br><br><br>
