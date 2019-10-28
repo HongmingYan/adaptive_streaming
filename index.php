@@ -11,7 +11,7 @@
         <a href="http://timward.technology/uploadable/bbb_demo.mp4" target="./videos/"download>Demo MP4</a>
         <br><br>
         <video controls>
-            <source src="segmented_videos/bbb_sunflower_1080p_30fps_normal/master.m3u8" type="video/mp4">
+            <source src="seg_files/bbb_sunflower_1080p_30fps_normal/master.m3u8" type="video/mp4">
         </video>
         <br><br>
         <?php
