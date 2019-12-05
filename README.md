@@ -1,6 +1,8 @@
 # adaptive_streaming
 Adaptive Bitrate Streaming
 
+None of this is accurate right now. In the process of getting this usable...
+
 1)
 First download the demo file, which is Big Buck Bunny at 1920x1080 resolution at 30 frames per second. There is a link on the page, and you can also download it from here.
 
